@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="static/styles/styles.css">
+<body>
+    <div align="center">
+        <div align="center" class="border">
+            <div class="header">
+                <h1 class="word">Sign in</h1>
+            </div>
+            <h2 class="word">
+                <form action="/register" method="POST">
+                   <div class="msg">{{msg}}</div>
+                   <input id="username" name="username" type="text" placeholder="Enter your username" class="textbox"/> <br> <br> 
+                   <input id="password" name="password" type="password" placeholder="Enter your verification password" class="textbox"/> <br> <br> 
+                   <input id="email" name="email" type="email" placeholder="Enter a verification email" class="textbox"/>
+                   <input type="submit" value="Sign in" class="btn"/> <br> <br> 
+                   
+                </form>
+            </h2>
+            <p class="bottom">Haven't logged in yet???<a class="bottom" href="/login">Log in here
+            </a></p>
+        </div>
+    </div>
+
+</body>
+</html>
